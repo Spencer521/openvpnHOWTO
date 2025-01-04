@@ -28,6 +28,9 @@ https://github.com/Null3rror/OpenVPN-over-Proxy/blob/main/openvpn-over-proxy-ins
 openvpn有web界面，好像可能不支持http-proxy，感兴趣可以玩玩
 https://cloud.tencent.com/developer/article/2207426
 
+How to connect to OpenVPN through a proxy or Tor?
+https://hackyourmom.com/en/osvita/yak-pidklyuchatysya-do-openvpn-cherez-proksi-abo-tor/
+
 ## client篇
 **客户端配置分流**（鱼+熊掌）：
 https://github.com/jonohill/docker-openvpn-proxy/tree/master?tab=readme-ov-file
