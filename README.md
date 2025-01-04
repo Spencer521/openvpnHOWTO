@@ -37,13 +37,18 @@ https://github.com/jonohill/docker-openvpn-proxy/tree/master?tab=readme-ov-file
 ![全局](https://i-blog.csdnimg.cn/direct/9317effd05bb42f8b100fc978534e970.png)
 
 ## 代理加速：
+[DockerHub国内镜像源列表（2024年6月18日 亲测可用）](https://linux.do/t/topic/114516)
+
 1、往链接前面加https://ghproxy.com/，例如：
-https://ghproxy.com/https://github.com/Nyr/openvpn-install/......
+> https://ghproxy.com/https://github.com/Nyr/openvpn-install/......
 已失效。自行访问https://ghproxy.com/获取更新。
+
 2、使用 docker hub proxy将原拉取镜像命令：
-docker pull ghcr.io/helloworld/helloworld
+[DockerHub 镜像加速](https://docker.anyhub.us.kg/)
+> docker pull ghcr.io/helloworld/helloworld
 替换为下面的加速拉取镜像命令：
-docker pull ghcr.anyhub.us.kg/helloworld/helloworld
+> docker pull ghcr.anyhub.us.kg/helloworld/helloworld
+
 3、linux代理软件gg:
 https://github.com/mzz2017/gg/blob/main/README_zh.md
 
