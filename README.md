@@ -25,6 +25,15 @@ https://blog.tmthecoder.dev/posts/part-1-building-a-xor-patched-vpn-server/
 openvpn-over-proxy-install.sh :
 https://github.com/Null3rror/OpenVPN-over-Proxy/blob/main/openvpn-over-proxy-install.sh
 
+其视频中提到：4) In order to increase your server's TCP, copy these three lines at the bottom of /etc/sysctl.conf
+```bash
+net.core.default_qdisc=fq
+net.ipv4.tcp_congestion_control=bbr
+net.ipv4.tcp_fastopen=3 
+```
+
+5) Then you have to install Fail2Ban.
+
 openvpn有web界面，好像可能不支持http-proxy，感兴趣可以玩玩
 https://cloud.tencent.com/developer/article/2207426
 
@@ -59,5 +68,7 @@ https://github.com/mzz2017/gg/blob/main/README_zh.md
 HTTP：squid、privoxy、polipo
 socks ：srelay、ss5
 
+## VPS 安全加固 
+建议:https://github.com/qist/xray-ui?tab=readme-ov-file#vps-%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA-%E5%BB%BA%E8%AE%AE
 
 未完待续*
